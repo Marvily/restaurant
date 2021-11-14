@@ -17,7 +17,7 @@ class HomeController extends AbstractController
 
         return $this->render('home/index.html.twig', [
             'restaurants'=>$restaurants,
-            'controller_name' => 'HomeController',
+            'controller_name' => 'Liste de Restaurants',
         ]);
     }
 }
