@@ -24,14 +24,6 @@ class RestaurantCrudController extends AbstractCrudController
     }
     */
 
-    #[Route('/retaurant/{id}', name: 'restaurant')]
-    public function restaurantAction($id){
-        $em = $this->getDoctrine()->getManager();
-            $restaurant = $em->getRepository(Restaurant::class)->find($id);
 
-            return $this->render('restaurant/restaurant.html.twig',[
-                'restaurant' => $restaurant
-            ]);
-        }
 
 }

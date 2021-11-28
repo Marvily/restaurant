@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\Home;
+namespace App\Controller;
 
 use App\Entity\Restaurant;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
